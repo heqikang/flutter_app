@@ -1,4 +1,4 @@
-# flutterappzeze
+# 一个简单的Flutter项目
 
 A new Flutter application.
 
