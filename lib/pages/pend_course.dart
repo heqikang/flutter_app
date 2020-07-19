@@ -46,7 +46,7 @@ class _PendCourseState extends State<PendCourse> with AutomaticKeepAliveClientMi
     //发起数据
     getData()
         .then((List<ChatUser> datas) {
-          print(datas);
+//          print(datas);
           setState(() {
             _datas = datas;
           });

@@ -4,10 +4,16 @@ PODS:
   - flutter_socket_plugin (1.0.1):
     - CocoaAsyncSocket
     - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_socket_plugin (from `.symlinks/plugins/flutter_socket_plugin/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
 
 SPEC REPOS:
   trunk:
@@ -18,11 +24,17 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_socket_plugin:
     :path: ".symlinks/plugins/flutter_socket_plugin/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_socket_plugin: 62af2593ea11e97a484573c25bb7c05ba52aa042
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  webview_flutter: d2b4d6c66968ad042ad94cbb791f5b72b4678a96
 
 PODFILE CHECKSUM: a75497545d4391e2d394c3668e20cfb1c2bbd4aa
 
