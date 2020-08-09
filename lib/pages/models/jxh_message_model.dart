@@ -82,7 +82,6 @@ class JXHSocketPackageHnadler {
 
   // 二进制数据 --> 模型数据
   static JXHMessageModel getSocketModelFromData(Uint8List bytes){
-
     ByteDataReader reader = ByteDataReader();
     //读入数据
     reader.add(bytes);

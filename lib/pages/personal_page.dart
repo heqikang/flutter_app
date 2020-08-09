@@ -33,6 +33,8 @@ class _PersonalPageState extends State<PersonalPage> {
   String receiveMessage = "";
   Socket _socket;
 
+  final GlobalKey testWidgetKey = GlobalKey();
+
 //  void init() async{
 //    try {
 //      await Socket.connect('39.97.123.117', 8081, timeout: Duration(seconds: 5)).then((socket){
@@ -187,11 +189,14 @@ class _PersonalPageState extends State<PersonalPage> {
         title: Text('我'),
       ),
       body: Container(
+        key: testWidgetKey,
         child: isListening ? JXHWebView(
           loadUrl: fileURl.toString(),
           jsName: 'jxhStudent',
           onMessageReceived: (String message) {
 //            print('message == $message');
+            print('width:${testWidgetKey.currentContext.size.width}');
+            print('height:${testWidgetKey.currentContext.size.height}');
           },
         ):Container(),
       ),
